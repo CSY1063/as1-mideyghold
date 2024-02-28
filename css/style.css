@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nav"
+    "footer"
+    ;
+}
+nav{
+    color: white;
+   
+}
+
+
+.Report {
+    padding: 5em 10em;
+    text-align: justify;
+}
+
+nav ul{
+   display: flex;
+   justify-content: space-around;
+   background-color: white ;
+   min-height: 2em;
+   align-items: center;
+   ;
+
+}
+
+
+nav ul li{
+    list-style: none;
+    color:white;
+    cursor: pointer;
+}
+
+header{
+    height: 100vh;
+    width: 100;
+    background-color:white ;
+    text-align: center;
+    grid-area: header;
+}
+
+.bg-img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+footer ul{
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: hotpink;
+    min-height: 2em;
+    align-items: center;
+    grid-area: footer;
+}
+
+footer ul li{
+    list-style: none;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+main{
+    background-image: url("https://wallpaperswide.com/download/space_aesthetic-wallpaper-3000x2000.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: x-large;
+    grid-area: main;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    grid-area: footer;
+}

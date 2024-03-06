@@ -29,7 +29,7 @@ nav ul{
    background-color: white ;
    min-height: 2em;
    align-items: center;
-   ;
+   
 
 }
 
@@ -38,8 +38,12 @@ nav ul li{
     list-style: none;
     color:white;
     cursor: pointer;
+    text-decoration: none;
 }
 
+nav ul li a{
+    text-decoration: none;
+}
 header{
     height: 100vh;
     width: 100;
@@ -67,11 +71,12 @@ footer ul li{
     list-style: none;
     color: aquamarine;
     cursor: pointer;
+    text-decoration: none;
 }
 
 main{
     background-image: url("https://wallpaperswide.com/download/space_aesthetic-wallpaper-3000x2000.jpg");
-    min-height: 100vh;
+    min-height: 91vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -84,8 +89,53 @@ main{
 }
 
 footer {
-    position: absolute;
+    position: absolute; 
     bottom: 0;
     width: 100%;
     grid-area: footer;
+    
 }
+
+footer ul li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.form {
+/*     margin: 6em auto;
+ */    width: 20em;
+    background-color: rgba(225, 150, 255, 0.673);
+    border: 2px solid #9d00e0;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-family: var(--font2);
+}
+
+
+
+input, textarea {
+    padding: 0.9em ;
+    width: 30vw;
+    border: none;
+    border-radius: 0.4em;
+    display: block;
+    margin: 0.5em auto;
+}
+
+
+.main form  div input[type = "submit"] {
+    padding: 0.35em;
+    border-radius: 15px;
+    background-color: var(--text);
+    color: black;
+    font-size: 1em;
+    width: 7em;
+    margin: 0.5em auto;
+    border: 0;
+}
+
